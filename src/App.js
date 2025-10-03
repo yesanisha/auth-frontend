@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Lock, Mail, User, Shield, LogOut, CheckCircle, XCircle } from 'lucide-react';
 
 const API_URL = 'https://secure-auth-api-production.up.railway.app/api/auth';
-secure-auth-api.railway.internal
+// secure-auth-api.railway.internal
 
 const authService = {
   register: async (email, password) => {
